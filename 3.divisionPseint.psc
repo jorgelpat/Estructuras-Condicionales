@@ -10,7 +10,7 @@ Algoritmo division
 	sobrante = dividendo mod divisor
 	Si sobrante > 0 Entonces
 		Escribir "No es una division exacta"
-		Escribir "cociente ", resultado
+		Escribir "cociente ", Trunc(resultado)
 		Escribir "resto ",sobrante
 	SiNo
 		Escribir "Es una division exacta"
